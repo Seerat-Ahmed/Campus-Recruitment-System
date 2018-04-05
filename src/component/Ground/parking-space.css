@@ -1,0 +1,49 @@
+.parking-space {
+    width: 175px;
+    height: 260px;
+    background-color: grey;
+    margin: 2px;
+    border-radius: 5px;
+    background: url('../../assets/parking-area.jpeg');
+    background-position: center;
+    background-size: contain;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: left;
+    margin-bottom: 90px;
+}
+
+.parking-space h4 {
+    font-weight: normal;
+    color: #ffffff;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.parking-space .parking-no {
+    padding: 5px 8px;
+    margin: 5px;
+    border-radius: 100%;
+}
+
+.parking-space .timer {
+    width: 65%;
+    padding: 5px 8px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.parking-space .car {
+    width: 130px;
+    height: 230px;
+    padding: 5px;
+    float: right;
+}
+
+
+
+.parking-space .user-car {
+    border:rgba(0, 0, 0, 0.19) solid 2px;
+}

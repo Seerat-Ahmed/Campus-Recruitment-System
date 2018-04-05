@@ -1,0 +1,59 @@
+
+.home {
+    background-image: url('./../../assets/parking-bg.jpeg');
+    background-position: center;
+    background-size: contain;
+    width: 100vw;
+    height: 100vh;
+    padding: 30px;
+}
+.home .parking-region {
+    color: #ffffff;
+    background-color: #222222;
+    padding: 20px;
+    width: 90%;
+    margin: 10px auto;  
+    border-radius: 5px;
+    text-align: center;
+}
+
+.home .parking-region:hover {
+    background-color: #007bff;
+    cursor: pointer;
+}
+
+.homee .list-group {
+    width: 90%;
+    margin-left: 10px;
+}
+
+.homee {
+    margin: 20px;
+}
+
+.homee h2 {
+    text-align: center;
+}
+
+
+.student-home {
+    margin: 10px;
+}
+
+
+.company-home {
+margin: 10px;
+}
+
+.student-home, .student-home .list-group-item {
+    width: 50%;
+}
+
+.btn {
+    margin-left: 5px;   
+}
+
+
+.red {
+    border: 2px red solid;
+}
